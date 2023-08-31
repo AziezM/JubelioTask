@@ -6,10 +6,13 @@ import time
 
 driver = webdriver.Chrome()
 driver.maximize_window()
+
 # menambahkan alamat url
 driver.get("https://app.jubelio.com/login")
+# tambahkan beberapa perintah pada element
 elem = driver.find_element(By.XPATH,"//input[@name='email']").send_keys("qa.rakamin.jubelio@gmail.com")
 elem = driver.find_element(By.XPATH,"//input[@name='password']").send_keys("Jubelio123!")
 elem = driver.find_element(By.XPATH,"//span[@class='ladda-label']").click()
 
+# tambahkan jeda 10 detik sebelum keluar
 time.sleep(10)
