@@ -8,4 +8,4 @@ Ini adalah hasil dari pengerjaan task QA Automation Jubelio x Rakamin
 - Untuk melihat daftar list pip yang terinstal dapat dilakukan command : pip list
 - Kemudian lakukan penginstalan Web Driver dengan perintah : pip install webdriver-manager
 - Kemudian kita dapat melakukan pembuatan script/kode di tools VS Code maupun Sublime
-~ Terima kasih ~
+Terima kasih
